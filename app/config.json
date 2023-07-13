@@ -1,0 +1,15 @@
+{
+  "providers": {
+    "mapbox": {
+      "url_template": "https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.jpg90?access_token={token}",
+      "max_zoom": 22,
+      "tile_size": 256,
+      "token": ""
+    },
+    "google": {
+      "url_template": "https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}&s",
+      "max_zoom": 18,
+      "tile_size": 256
+    }
+  }
+}
